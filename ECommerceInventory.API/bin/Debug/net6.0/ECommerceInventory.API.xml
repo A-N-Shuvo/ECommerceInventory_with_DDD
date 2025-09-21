@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerceInventory.API</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerceInventory.API.Controllers.ProductsController.GetAll(ECommerceInventory.Application.DTOs.ProductQueryParameters)">
+            <summary>
+            Get all products with optional filters, search, sorting, pagination.
+            </summary>
+            <param name="qp">Query parameters for filtering, search, pagination</param>
+            <returns>List of products with total count in header</returns>`
+        </member>
+        <member name="M:ECommerceInventory.API.Controllers.ProductsController.Search(System.String,System.Int32,System.Int32)">
+            <summary>
+            Search products by keyword (name/description).
+            </summary>
+        </member>
+        <member name="M:ECommerceInventory.API.Controllers.ProductsController.GetById(System.Int32)">
+            <summary>
+            Get a product by ID
+            </summary>
+            <param name="id">Product ID</param>
+            <returns>Product details</returns>
+        </member>
+    </members>
+</doc>
