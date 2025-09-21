@@ -93,7 +93,7 @@ Bearer <token>
 #####  User Authentication
 #####
 
-Email: anshuvo@example.com
+Email: anshuvo@mail.com
 
 Password: ANShuvo@123!
 
