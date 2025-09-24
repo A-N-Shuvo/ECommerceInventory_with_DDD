@@ -5,14 +5,15 @@ Built with **.NET Core**, following **Domain-Driven Design (DDD)** layered archi
 
 ---
 
-## 📦 Project Structure
+## 📦 Project Directory Structure
 
-ECommerceInventory/
-├─ API/                # Controllers, Program.cs, Middleware
-├─ Application/        # DTOs, Services, Mappings, Interfaces
-├─ Core/               # Entities, Interfaces
-├─ Infrastructure/     # Repositories, DbContext, UnitOfWork
-├─ wwwroot/uploads/    # Uploaded product images
+| Directory/File Path       | Description                           |
+|---------------------------|---------------------------------------|
+| **API/**                  | Controllers, Program.cs, Middleware   |
+| **Application/**          | DTOs, Services, Mappings, Interfaces  |
+| **Core/**                 | Entities, Core Interfaces             |
+| **Infrastructure/**       | Repositories, DbContext, UnitOfWork   |
+| **wwwroot/uploads/**      | Uploaded product images storage       |
 
 
 
